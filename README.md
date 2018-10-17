@@ -7,3 +7,4 @@ HTML, JS, SCSS, mobile first
     
     1. Clone the repository: `git clone https://github.com/mostrozny/small-task.git`
     2. Install the application: `npm install`
+    3. Run 'gulp watch' and 'node_modules/.bin/webpack'
