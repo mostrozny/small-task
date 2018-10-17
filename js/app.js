@@ -3,7 +3,6 @@ import Swiper from 'swiper'
 document.addEventListener('DOMContentLoaded', () => {
     //SWIPER
         const mySwiper = new Swiper('.swiper-container', {
-            // Optional parameters
             direction: 'horizontal',
             loop: true,
             autoplay: {
