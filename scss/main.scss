@@ -23,11 +23,6 @@ html {
   overflow-x: hidden;
 }
 
-.container {
-  max-width: 1110px;
-  margin: 0 auto;
-}
-
 //PLACEHOLDERS
 %flex-display {
   display: flex;
@@ -196,6 +191,11 @@ html {
 }
 
 //BASE STYLES FOR ELEMENTS
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
 
 .arrowRight {
   width: 0;

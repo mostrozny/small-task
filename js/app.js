@@ -1,8 +1,8 @@
-import Swiper from 'swiper'
+import Swiper from 'swiper';
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    //SWIPER
+    //SLIDER PROPERTIES
         const mySwiper = new Swiper('.swiper-container', {
             direction: 'horizontal',
             loop: true,
