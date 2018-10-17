@@ -1,6 +1,7 @@
 import Swiper from 'swiper'
 
 document.addEventListener('DOMContentLoaded', () => {
+
     //SWIPER
         const mySwiper = new Swiper('.swiper-container', {
             direction: 'horizontal',
@@ -21,4 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 return '<span class="' + className + '">' + (index + 1) + '</span>';
             }
         });
+
 });
